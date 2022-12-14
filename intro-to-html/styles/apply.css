@@ -1,0 +1,40 @@
+.apply-on-company-website {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 5px;
+    transition: background-color 0.15s;
+}
+
+.apply-on-company-website:hover {
+    background-color: rgb(10, 78, 146);
+}
+
+.save {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-color: rgb(10, 102, 194);
+    border-radius: 50px;
+    border-style: solid;
+    font-weight: bold;
+    border-width: 1.5px;
+    cursor: pointer;
+    transition: background-color 0.1s, border-width 0.01s;
+}
+
+.save:hover {
+    background-color: rgb(196, 222, 248);
+    border-width: 2px;
+}

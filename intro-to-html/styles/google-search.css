@@ -1,0 +1,24 @@
+.pic,
+.input {
+    text-align: center;
+}
+
+.image {
+    width: 400px;
+    margin-top: 200px;
+}
+
+input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 200px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: gray;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    font-size: 20px;
+    display: inline-block;
+}

@@ -1,0 +1,17 @@
+body {
+    font-family: montserrat;
+}
+
+.model {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.order {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+}

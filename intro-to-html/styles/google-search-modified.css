@@ -1,0 +1,65 @@
+body {
+    font-family: Arial;
+}
+
+.pic,
+.input {
+    text-align: center;
+}
+
+.image {
+    width: 400px;
+    margin-top: 200px;
+}
+
+input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 200px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    color: gray;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    width: 550px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.google-search {
+    text-align: center;
+}
+
+.google-search-button {
+    background-color: rgb(248, 245, 245);
+    margin-top: 50px;
+    border: none;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lucky-button {
+    background-color: rgb(248, 245, 245);
+    margin-top: 10px;
+    border: none;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.google-search-button,
+.lucky-button:hover {
+    cursor: pointer;
+}
+
+.google-search-button:active,
+.lucky-button:active {
+    opacity: 0.8;
+}
