@@ -59,3 +59,11 @@ div:hover {
 .add-button:active {
     opacity: 0.8;
 }
+.profile-2 {
+    display: inline-block;
+    width: 10px;
+}
+.profile-pic-2 {
+    width: 10px;
+    
+}
