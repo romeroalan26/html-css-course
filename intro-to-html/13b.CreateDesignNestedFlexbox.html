@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            height: 50px;
+        }
+
+        .column1 {
+            background-color: lightpink;
+            width: 100px;
+        }
+
+        .column2 {
+            display: flex;
+            background-color: lightblue;
+            width: 200px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .row-2 {
+            display: flex;
+            align-items: center;
+        }
+
+        p {
+            background-color: black;
+            color: white;
+        }
+
+        .row2 {
+            background-color: black;
+            color: white;
+        }
+    </style>
+    <title>
+        Practice
+    </title>
+</head>
+
+<body>
+    <div class="flexbox">
+        <div class="column1">
+
+        </div>
+        <div class="column2">
+            <div class="row-container">
+                <div class="row1">row1</div>
+                <div class="row2">row2</div>
+            </div>
+            <div class="row-2">
+                <p>row2</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
