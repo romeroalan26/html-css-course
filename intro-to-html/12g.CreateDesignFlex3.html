@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: arial;
+        }
+
+        .flexbox {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .profile-picture {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            object-fit: cover;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        .description {
+            color: gray;
+        }
+
+        .name-description {
+            flex: 1;
+        }
+
+        .follow {
+            background-color: rgb(50, 151, 245);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .follow:hover{
+            cursor: pointer;
+        }
+
+        .container {
+            width: 350px;
+        }
+    </style>
+    <title>
+        Practice
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flexbox">
+            <div class="image-box">
+                <img src="images/foto1.jpg" class="profile-picture">
+            </div>
+            <div class="name-description">
+                <div class="name">Wilmer Romero</div>
+                <div class="description">El fuelte</div>
+            </div>
+            <div class="follow-div"><button class="follow">Follow</button></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="flexbox">
+            <div class="image-box">
+                <img src="images/foto2.jpg" class="profile-picture">
+            </div>
+            <div class="name-description">
+                <div class="name">Vitalia De Oleo</div>
+                <div class="description">La sierva de Dios</div>
+            </div>
+            <div class="follow-div"><button class="follow">Follow</button></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="flexbox">
+            <div class="image-box">
+                <img src="images/foto 3.jpg" class="profile-picture">
+            </div>
+            <div class="name-description">
+                <div class="name">Maurelys Romero</div>
+                <div class="description">Madre de tres</div>
+            </div>
+            <div class="follow-div"><button class="follow">Follow</button></div>
+        </div>
+    </div>
+</body>
+
+</html>

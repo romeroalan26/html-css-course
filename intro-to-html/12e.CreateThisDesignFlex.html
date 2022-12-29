@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: arial;
+                font-size: 18px;
+            }
+            .main-flex{
+                border-style: solid; 
+                width: 500px; 
+                border-width: 1px; 
+                border-radius: 10px;
+                border-color: rgba(128, 128, 128, 0.295);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            }
+            .div1{
+                display: flex; justify-content: space-between;
+            }
+            .number1{
+                background-color: rgb(66, 66, 255); 
+                color: white; 
+                padding-top: 5px; 
+                padding-bottom: 5px;
+                padding-left: 12px;
+                padding-right: 12px;
+                border-radius: 20px;
+                margin-right: 15px;
+            }
+            .home,
+            .notifications,
+            .messages{
+                margin-left: 15px;
+            }
+        </style>
+        <title>
+            Practice
+        </title>
+    </head>
+    <body>
+        <div class="main-flex">
+            <div class="div1">
+                <div  class="home" ><p>Home</p></div>
+                <div><p class="number1">14</p>
+                </div>
+            </div>
+            <div class="div1">
+                <div class="notifications"><p>Notifications</p></div>
+                <div><p class="number1">3</p></div>
+            </div>
+            <div class="div1">
+                <div class="messages"><p>Messages</p></div>
+                <div> <p class="number1">5</p></div>
+            </div>
+        
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: arial;
+            }
+            .flexbox{
+                
+                background-color: rgb(140, 65, 226);
+                height: 50px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between
+
+            }
+            .home{
+                margin-left: 10px;
+                color: white;
+                font-weight: bold;
+            }
+            input{
+                border-radius: 20px;
+                border: none;
+                width: 500px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 15px;
+            
+            }
+            
+            .download{
+                margin-right: 10px;
+            }
+            .download-button{
+                border-style: solid ;
+                border-color: white;
+                border-width: 1px;
+                border-radius: 2px;
+                background-color: rgb(140, 65, 226);
+                color: white;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        </style>
+        <title>
+            Prueba FlexBox
+        </title>
+    </head>
+    <body>
+        <div class="flexbox">
+            <div class="home">Home</div>
+            <div class="input"> <input type="text" placeholder="Search"></div>
+            <div class="download"><button class="download-button">Download</button></div>
+        </div>
+    </body>
+</html>
