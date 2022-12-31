@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: arial;
+            }
+            .main-container{
+                display: flex;
+                flex-direction: row;
+                position: fixed;
+                top: 0;
+                left: 0;
+                height: 300px;
+            }
+            .side-bar1-box{
+                background-color: rgb(31, 33, 37);
+                padding-top: 10px;
+                padding-left: 10px; 
+                padding-right: 10px;
+            }
+            .side-bar2-box{
+                background-color: rgb(50, 56, 59);
+                width: 150px;
+                padding-left: 10px;
+            }
+            .info-flex-box{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 10px;
+            }
+            .info-box{
+                color: white;
+            }
+            .plus-sign{
+                color: gray;
+                font-size: 23px;
+            }
+            img{
+                height: 60px;
+                width: 60px;
+                object-fit: cover;
+                border-radius: 30px;
+                margin-bottom: 5px;
+            }
+            .content{
+                color: gray;
+                margin-bottom: 10px;
+            }
+        </style>
+        <title>Double Sidebar</title>
+    </head>
+    <div class="main-container">
+        <div class="side-bar1-box">
+            <div class="image1">
+                <img src="images/foto1.jpg">
+            </div>
+            <div class="image2">
+                <img src="images/foto2.jpg">
+            </div>
+            <div class="image3">
+                <img src="images/foto 3.jpg">
+            </div>
+        </div>
+
+        <div class="side-bar2-box">
+            <div class="info-flex-box">
+                <div class="info-box">
+                   <p>INFO</p>
+                </div>
+                <div class="plus-sign">
+                    <b>+</b>
+                </div>
+            </div>
+            <div class="content">
+                # new-videos
+            </div>
+            <div class="content">
+                # updates
+            </div>
+            <div class="content">
+                # faq
+            </div>
+        </div>
+    </div>
+</html>

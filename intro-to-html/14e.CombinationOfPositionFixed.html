@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: Arial;
+                height: 3000px;
+            }
+            .header{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+            .user-box{
+                margin-left: 20px;
+                display: flex;
+                align-items: center;
+            }
+            .profile-picture{
+                height: 50px;
+                width: 50px;
+                border-radius: 25px;
+
+            }
+            .add-friend-button{
+                background-color: rgb(0, 102, 255);
+                color: white;
+                border: none;
+                border-radius: 5px;
+                height: 30px;
+                width: 90px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            .message-button{
+                background-color: rgb(235, 235, 235);
+                color: rgb(0, 0, 0);
+                border: none;
+                border-radius: 5px;
+                height: 30px;
+                width: 90px;
+                cursor: pointer;
+                font-weight: bold;
+            }
+            .name-box{
+                margin-left: 8px;
+            }
+        </style>
+        <title>
+            Position fixed practice
+        </title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="user-box">
+                <div class="image-box">
+                    <img src="images/alan.JPG" class="profile-picture">
+                    
+                </div>
+                <div class="name-box">
+                    <b>Alan Romero</b> 
+                </div>
+            </div>
+
+            <div class="button-box">
+                <button class="add-friend-button">Add Friend</button>
+                <button class="message-button">Message</button>
+            </div>
+        </div>
+    </body>
+</html>
