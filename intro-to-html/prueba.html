@@ -7,52 +7,94 @@
 }
 
 .container {
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(200, 200, 200);
-  width: 300px;
-  border-radius: 6px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
-.flexbox {
+.inbox-label {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+  margin-bottom: 20px;
+}
+
+.email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sender-picture-container {
+  margin-right: 10px;
+}
+
+.sender-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.email-content {
+  flex: 1;
+}
+
+.email-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 12px;
-  padding-right: 12px;
+  margin-bottom: 3px;
 }
 
-.notifications {
-  background-color: rgb(49, 109, 245);
-  color: white;
-  padding-top: 3px;
-  padding-bottom: 3px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 20px;
-  font-size: 14px;
+.sender-name {
+  font-size: 18px;
   font-weight: bold;
+}
+
+.send-time {
+  font-size: 14px;
+  color: rgb(120, 120, 120);
+}
+
+.subject {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message {
+  color: rgb(120, 120, 120);
 }
         </style>
         <title>Prueba</title>
     </head>
     <body>
-        <div class="container">
-            <div class="flexbox">
-              <div>Home</div>
-              <div class="notifications">14</div>
+      <div class="container">
+        <div class="inbox-label">ALL INBOXES</div>
+        <div class="email">
+          <div class="sender-picture-container">
+            <img class="sender-picture" src="images/foto1.jpg">
+          </div>
+          <div class="email-content">
+            <div class="email-header">
+              <div class="sender-name">Chewy Promotions</div>
+              <div class="send-time">4:58 PM</div>
             </div>
-            <div class="flexbox">
-              <div>Notifications</div>
-              <div class="notifications">3</div>
+            <div class="subject">
+              Biggest sales of the year!
             </div>
-            <div class="flexbox">
-              <div>Messages</div>
-              <div class="notifications">5</div>
+            <div class="message">
+              Hey there! We're writing to tell you about our...
             </div>
           </div>
+        </div>
+      </div>
     </body>
 </html>
