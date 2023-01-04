@@ -52,7 +52,6 @@
 }
 
 .search-button {
-    position: relative;
     height: 40px;
     width: 66px;
     background-color: rgb(240, 240, 240);
@@ -61,6 +60,9 @@
     border-color: rgb(192, 192, 192);
     margin-left: -1px;
     margin-right: 10px;
+}
+.search-button:hover{
+    background-color: rgb(228, 228, 228);
 }
 
 .search-button,
