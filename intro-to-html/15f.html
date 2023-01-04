@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body{
+            font-family: arial;
+        }
+        .image-box {
+            width: 400px;
+            position: relative;
+            border-style: solid;
+            border-width: 1px;
+            border-color: rgb(236, 39, 39);
+            background-color: rgb(236, 39, 39);
+            margin-right: 10px;
+        }
+
+        .image {
+            width: 400px;
+            margin-top: 20px;
+        }
+        
+        .offer{
+                background-color: black;
+                color: white;
+                padding: 10px;
+                position: absolute;
+                top: 5px;
+                right: 0px;
+                font-size: 15px;
+            }
+        .add-box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 70px;
+            background-color: rgba(255, 255, 255, 0.884);
+            z-index: 0;
+        }
+
+        .add-button{
+            border-style: solid;
+            font-size: 15px;
+            border-width: 1px;
+            padding: 10px;
+            cursor: pointer;
+            background-color: rgb(236, 39, 39);
+            color: white;
+        }
+        .add-button:active{
+            opacity: 0.5;
+        }
+        
+    </style>
+    <title>Offer</title>
+</head>
+
+<body>
+    <div class="image-box">
+        <img src="images/nintendo-switch.webp" class="image">
+        <div class="offer">
+            20% OFF
+        </div>
+        <div class="add-box">
+            
+                <button class="add-button">Add to Cart</button>
+            
+        </div>
+    </div>
+</body>
+
+</html>
