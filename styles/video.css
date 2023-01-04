@@ -11,6 +11,10 @@
     line-height: 20px;
     margin-bottom: 10px;
 }
+.video-link{
+    text-decoration: none; 
+    color: black;
+}
 
 .video-info-grid {
     display: grid;
@@ -37,9 +41,14 @@
     margin-bottom: 4px;
 }
 
+.video-author-link{
+    text-decoration: none; 
+    color: rgb(96, 96, 96);
+}
+
 .video-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
 }
